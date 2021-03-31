@@ -1,0 +1,17 @@
+.header{
+    background-color: #00f;
+}
+.header p{
+    font-size: 30px;
+    color: #fff;
+}
+.header span{
+    font-size: 22px;
+    color: #fff;
+}
+.header + div{
+    background-color: #f00;
+}
+strong{
+    color: #0f0;
+}

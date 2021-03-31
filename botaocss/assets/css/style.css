@@ -1,0 +1,21 @@
+body{
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    padding: 30px;
+    background: linear-gradient(15deg,#ff0000,#333);
+    font-size: 40px;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 6px #ccc;
+}
+a:hover{
+    background: linear-gradient(25deg, #333, #585858);
+    color: #ff750f;
+    box-shadow: -10px -10px 10px #ccc;
+}

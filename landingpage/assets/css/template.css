@@ -1,0 +1,121 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.secao1{
+    background-color: #3ea9f5;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 300px;
+}
+link{
+    display: flex;
+    align-items: center;
+}
+.link a{
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 25px;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form{
+    display: block;
+    text-align: center;
+}
+.texto h1{
+    color: #fff;
+    font-size: 50px;
+}
+.subtexto h3{
+    color: #abdafb;
+    padding-bottom: 25px;
+}
+.bloco1{
+    display: flex;
+    justify-content: center;
+}
+.bloco2{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+input{
+    width: 280px;
+    height: 65px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 5px;
+    border: #fff;
+}
+select{
+    width: 590px;
+    height: 65px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 5px;
+    border: #fff;
+    color: #89919a;
+}
+button{
+    background-color: #3769cc;
+    width: 590px;
+    height: 65px;
+    color: #fff;
+    font-weight: bolder;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+h5, h5 a{
+    color: #a8d8fb;
+}
+h5{
+    padding-bottom: 140px;
+}
+footer{
+    background: #fff;
+    display: flex;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+article{
+    width: 70%;
+    margin: 20px;
+}
+.question{
+    margin-bottom: 20px;
+    color: #363945;
+    font-weight: bold;
+}
+.answer{
+    color: #7c858e;
+    text-align: justify;
+}
+.answer a{
+    color: #7c858e;
+}
